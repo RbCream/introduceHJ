@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
+
+
 class App extends Component {
     render () {
       return (
@@ -85,6 +87,19 @@ class Footer extends Component {
   );
 }
 }
+
+
+$(document).ready(function($) {
+
+        $(".scroll_move").click(function(event){         
+
+                event.preventDefault();
+
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+
+        });
+
+});
 
 
 export default App;
