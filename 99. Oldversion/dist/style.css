@@ -160,10 +160,7 @@ ul {
   width:40%;
   margin:3%;
   height:-webkit-fill-available;
-  background-image: url('https://yt3.ggpht.com/DbyIZm6bq7EaDuctu6liKrXlMjv0sEXCU-L_bbGyy0S8cZRyQKTmNaVqt12-1PVVr68nCNUmRBVPsQ=s640-nd-v1');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  
 border:1px solid #000000;
   overflow:hidden;
 

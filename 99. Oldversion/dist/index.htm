@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <title>CodePen - Introduce</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
+  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+ 
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -54,11 +57,19 @@
   </div>
 
 <div class="Pj" id="Pj">
-      <div>98
+      <div>
       <div class="project_top">Project </div> 
         <br>
        <div class="container">
-         <div class="C1">텍스트가 들어갈 수 있는 공간입니다.</div>
+         <div class="C1">
+           <div class="sub_gallery">
+            <a href="#" data-toggle="modal" data-target="#123123">
+              <img src="https://yt3.ggpht.com/DbyIZm6bq7EaDuctu6liKrXlMjv0sEXCU-L_bbGyy0S8cZRyQKTmNaVqt12-1PVVr68nCNUmRBVPsQ=s640-nd-v1" alt="" width="200">
+            </a>
+          </div>
+      
+          
+          텍스트가 들어갈 수 있는 공간입니다.</div>
          <div class="C2">노을
          <br>2012년 7월 7일생 (9세)</div>
          <div class="C3">특이사항 : 바보</div>
@@ -88,6 +99,31 @@
       <h4>Have a nice day :)</h4>
 
     </div>
+
+          <!--modal 01-->
+          <div class="modal fade" id="123123" data-keyboard="false">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+              <div class="modal-content">
+      
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">크게 보기</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+      
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <img class="card-img-top rounded img-fluid" src="https://yt3.ggpht.com/DbyIZm6bq7EaDuctu6liKrXlMjv0sEXCU-L_bbGyy0S8cZRyQKTmNaVqt12-1PVVr68nCNUmRBVPsQ=s640-nd-v1">
+                </div>
+      
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+      
+              </div>
+            </div>
+          </div>
 </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
